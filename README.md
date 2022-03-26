@@ -13,7 +13,7 @@ range in an EasyGraphics window.
 
 ### __WeatherModel class__
 Implementing the following requirements: 
-: - Create a data record (hint: this could be a separate class) that can store day, time, 
+- Create a data record (hint: this could be a separate class) that can store day, time, 
 windspeed (in miles per hour) and temperature (in degrees Celsius) data for an entire year.
 - Read day, time, windspeed, and temperature for an entire year from a URL that is supplied
 as an argument to a method. This requirement will involve opening a connection to the 
@@ -46,10 +46,10 @@ the selected range of days in each of the EasyGraphics windows.
 - It must include a main method, so that the program runs when java WeatherController
 is typed on the command line.
 - When the program runs, the WeatherController class must initiate dialog with the user
-to select
-
-: a year in the range 1999-2016, a start day in the range 1-365, and an end day in the range 1-365. 
-
+to select: 
+* a year in the range 1999-2016
+* a start day in the range 1-365
+* an end day in the range 1-365. 
 - Construct a suitable URL and pass it to WeatherModel, so that data can be read and stored.
 - Call methods in WeatherView to display the data on the command window or terminal, 
 and (optionally) in EasyGraphics windows.
